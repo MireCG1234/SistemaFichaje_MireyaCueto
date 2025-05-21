@@ -12,6 +12,12 @@ Proyecto prácticas de empresa 1ºDAM.
   - `El código no existe / Error en el código insertado`, cuando pones un código que no pertenece a ningún trabajador o que no tiene 4 cifras.
   - `¡Bienvenid@!`, cuando un trabajador pone su código e ingresa a la empresa.
   - `¡Hasta la próxima!`, cuando un trabajador pone su código y se marcha de la empresa.
+
+![errorImgae](https://github.com/user-attachments/assets/b55b7d60-382a-4cf5-84c2-7aa53e15a4f3)
+![bienvenida](https://github.com/user-attachments/assets/41ce7a4c-8178-4088-b3f8-ddae5938ca98)
+![salida](https://github.com/user-attachments/assets/1c255289-373c-4830-aa75-d9ee20a4ff82)
+
+
 - Interfaz gráfica con:
   - Logo de empresa (en este caso MiPC, ya que es la empresa asignada para las prácticas).
   - Teclado numérico en pantalla junto a teclas para borrar, ir hacia atrás e ingresar el código.
@@ -33,12 +39,15 @@ La ventana principal de la aplicación incluye:
 - Teclado numérico funcional.
 - Fecha y hora actualizadas en tiempo real.
 
-![]("C:\Users\mirey\Desktop\MATERIAL 1ºDAM\11_ProyectoSistemaFichajes25\imagenMenu1.png")
-  
+![imagenMenu1](https://github.com/user-attachments/assets/8b39c157-498f-4163-a8b1-70b46fde9bba)
+
 La ventana administrador incluye:
 - Logo de empresa en la parte superior centro.
 - Botón de volver al menú principal.
 - Listado de registros ordenados de más recientes a más antiguos.
+
+![imagenMenu2](https://github.com/user-attachments/assets/8bdd50c7-2a0f-48b1-afd2-6347818c51ac)
+
 
 ---
 
@@ -66,12 +75,19 @@ La ventana administrador incluye:
   - ENTRY_TYPE BOOLEAN : Tipo de fichaje (entrada/salida)
   - ENTRY_DATE TIMESTAMP : Fecha y hora del fichaje en ese instante
 
+![baseDatos](https://github.com/user-attachments/assets/ffa62ffe-2082-4596-a651-1c1d65c9e641)
+
+
 ---
 
 ## Instalación y ejecución
 
 1. Clonar este repositorio: git clone https://github.com/tuusuario/control-fichaje-java.git
 2. Importar el proyecto en tu IDE IntelliJ (Opcional: Si quieres ver el proyecto desde dentro).
+
+![intellijEditor](https://github.com/user-attachments/assets/86d664ef-e2e8-497f-a501-d5af4d85c13c)
+
+
 3. Configurar la base de datos localmente:
    - Descargar e instalar mysql y phpmyadmin en un contenedor de docker (también puede ser en local).
    - Crear mediante phpmyadmin la base de datos con los requisitos mostrados anteriormente, o ejecutar directamente el siguiente script en la consola SQL:
@@ -107,5 +123,7 @@ CREATE TABLE SIGNINGS (
 
      
 5. Ejecutar el archivo .jar exportado desde un acceso directo en el escritorio.
+
+![bat](https://github.com/user-attachments/assets/e44fab61-7bed-4159-a1cd-60f969e2ff04)
 
 
