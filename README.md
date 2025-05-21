@@ -1,4 +1,4 @@
-# SistemaFichaje_MireyaCueto
+# Sistema De Fichajes - MireyaCueto
 Proyecto prácticas de empresa 1ºDAM.
 
 **Sistema de Fichajes** es una aplicación de escritorio desarrollada en Java, diseñada para gestionar el registro de entrada y salida de los trabajadores de una empresa. La aplicación está pensada para funcionar en sistemas operativos **Windows 10**, con una **interfaz gráfica sencilla e intuitiva** desarrollada con JavaSwing y con conexión a una base de datos MySQL alojada en Docker.
